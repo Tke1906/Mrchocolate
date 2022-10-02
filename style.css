@@ -1,0 +1,36 @@
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  --bg-color: #FFFAF1;
+  --bg-page-color: #F2EFEA;
+  --h1-color: #241E4E;
+}
+
+body{
+  font-family: 'DM sans', sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--bg-color);
+}
+
+#page{
+  background-color: var(--bg-page-color);
+}
+
+nav{
+  /* background-color: #F2EFEA; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.6rem 2.4rem;
+}
+
+nav h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--h1-color);
+}

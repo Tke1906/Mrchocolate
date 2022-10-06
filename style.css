@@ -7,12 +7,20 @@
   --bg-color: #FFFAF1;
   --bg-page-color: #F2EFEA;
   --h1-color: #241E4E;
+  --subtitle-color: #966574;
+  --btn-color: #966574;
+  --btn-alt-color: hsl(342, 20%, 43%);
+  --txt-color: #495057;
 }
 
 body{
   font-family: 'DM sans', sans-serif;
   font-size: 1.6rem;
   background-color: var(--bg-color);
+}
+
+img{
+  width: 100%;
 }
 
 #page{
@@ -25,12 +33,76 @@ nav{
   align-items: center;
   justify-content: space-between;
 
-  padding: 1.6rem 2.4rem;
+  padding: 1.6rem 0;
 }
 
-nav h1{
+nav p{
   font-family: 'Dancing Script', cursive;
   font-size: 2.4rem;
   font-weight: bold;
   color: var(--h1-color);
+  
+}
+
+.container{
+  margin:0 2.4rem;
+}
+
+/* WELCOME */
+
+#welcome{
+  margin: 4 0 0;
+  text-align: center;
+}
+
+#welcome p:first-child{
+  color: var(--subtitle-color);
+  margin-bottom: 1.6rem;
+  
+}
+
+#welcome h1{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+#welcome p{
+  color: var(--txt-color);
+  line-height: 3.2rem;
+  margin-bottom: 1.8rem;
+}
+
+#welcome button{
+  margin: 0 auto 6.4rem;
+
+  border: none;
+  border-radius: 4rem;
+  padding:1.6rem 3.2rem;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: var(--subtitle-color);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  transition-duration: 0.2s ;
+}
+
+#welcome button:hover{
+  background-color: var(--btn-alt-color);
+}
+
+#welcome .img{
+  margin: auto;
+  text-align: center;
+}
+
+#welcome img{
+  border-radius: 2rem;
 }

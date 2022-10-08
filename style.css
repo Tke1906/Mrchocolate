@@ -48,6 +48,21 @@ nav p{
   margin:0 2.4rem;
 }
 
+.pink{
+  color: var(--subtitle-color);
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 8%;
+}
+
+p{
+  color: var(--txt-color);
+  line-height: 3.2rem;
+  margin-bottom: 1.8rem;
+}
+
 /* WELCOME */
 
 #welcome{
@@ -55,23 +70,11 @@ nav p{
   text-align: center;
 }
 
-#welcome p:first-child{
-  color: var(--subtitle-color);
-  margin-bottom: 1.6rem;
-  
-}
-
 #welcome h1{
   font-size: 3rem;
   font-weight: bold;
   line-height: 4.8rem;
   margin-bottom: 2.4rem;
-}
-
-#welcome p{
-  color: var(--txt-color);
-  line-height: 3.2rem;
-  margin-bottom: 1.8rem;
 }
 
 #welcome button{
@@ -105,4 +108,127 @@ nav p{
 
 #welcome img{
   border-radius: 2rem;
+  margin-bottom: 4.2rem;
+}
+
+/* Content-boxes */
+
+#content-boxes{
+  margin-top: 6.4rem;
+  text-align: center;
+}
+
+#content-boxes h2{
+  
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  margin-bottom: 6.4rem;
+}
+
+.boxes{
+  text-align: start;
+  padding: 6.4rem 2.4rem 2.4rem;
+  position: relative;
+  border: 1px solid #DCE9E2;
+  margin-bottom: 3.2rem;
+}
+
+.boxes h3{
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+.boxes p{
+  line-height: 150%;
+  margin: 0;
+}
+
+ .boxes svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 2.4rem;
+}
+
+
+#about{
+  margin-bottom: 10rem;
+}
+
+#about h2{
+  margin-bottom: 2.4rem;
+}
+
+#about .txt-about{
+  line-height: 150%;
+  font-size: 1.6rem
+}
+
+#about img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+#contact{
+  margin-bottom: 3.2rem;
+}
+
+#contact h2{
+  margin-bottom: 2.4rem;
+}
+
+#contact .content-contact{
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+
+#contact button{
+  margin-bottom: 6.4rem;
+
+  border: none;
+  border-radius: 4rem;
+  padding:1.6rem 3.2rem;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: var(--subtitle-color);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  transition-duration: 0.2s ;
+}
+
+#contact button:hover{
+  background-color: var(--btn-alt-color);
+}
+
+#contact img{
+  border-radius: 0.5rem
+}
+
+footer{
+  background: var(--btn-color);
+  color: #fff;
+  padding: 2.4rem 2.4rem 4.8rem;
+}
+
+footer p:nth-child(1) { color: #fff; margin-bottom: 1.2rem;}
+footer p:nth-child(2){
+  color: #fff;
+  margin-bottom: 2.4rem
+}
+
+footer .social-media{
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }

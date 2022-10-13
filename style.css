@@ -1,3 +1,6 @@
+/* BREAKPOINTS */
+/* < 600, < 768, < 992, < 1200 */
+
 *{
   margin: 0; padding: 0; box-sizing: border-box;
 }
@@ -23,6 +26,11 @@ img{
   width: 100%;
 }
 
+.content-page{
+  margin: auto;
+  max-width: 76.8rem;
+}
+
 #page{
   background-color: var(--bg-page-color);
 }
@@ -45,7 +53,7 @@ nav p{
 }
 
 .container{
-  margin:0 2.4rem;
+  margin:0 3.2rem;
 }
 
 .pink{
@@ -218,7 +226,7 @@ p{
 footer{
   background: var(--btn-color);
   color: #fff;
-  padding: 2.4rem 2.4rem 4.8rem;
+  padding: 2.4rem 3.2rem 4.8rem;
 }
 
 footer p:nth-child(1) { color: #fff; margin-bottom: 1.2rem;}
@@ -231,4 +239,58 @@ footer .social-media{
   display: flex;
   align-items: center;
   gap: 3.2rem;
+}
+
+.hide {
+  display: none;
+}
+
+i{
+  color:hsl(342, 20%, 43%);
+}
+
+/* LIST BAR */
+
+.sections{
+  margin: 12rem auto;
+  max-width: 60rem;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+   
+
+}
+
+.fa-x{
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 3.2rem;
+}
+
+.sections h2{
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.sections ul{
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5rem;
+}
+
+.sections ul li:nth-child(even){
+  border-bottom: 1px solid var(--btn-color);
+  list-style: none;
+}
+
+.sections ul li a{
+  text-decoration: none;
+  font-size: 3.2rem;
+  color: var(--btn-color);
 }
